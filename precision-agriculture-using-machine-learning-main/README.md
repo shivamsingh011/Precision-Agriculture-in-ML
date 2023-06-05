@@ -1,4 +1,4 @@
-# Precision Agriculture using Machine Learning and IOT
+# Precision Agriculture using Machine Learning
 
 ## DATA SOURCE 📊
 - [Crop recommendation dataset ](https://www.kaggle.com/atharvaingle/crop-recommendation-dataset) (custom built dataset)
@@ -21,15 +21,11 @@ Farming is one of the major sectors that influences a country’s economic growt
   
 ## Contributors:
 
--[Atharva Labhasetwar](https://www.linkedin.com/in/atharva-labhasetwar)
+-[Shivam Singh](https://www.linkedin.com/in/shivam-singh-1628291aa/)
 
--[Venkata Narayana Bommanaboina](https://www.linkedin.com/in/bvnarayana515739/)
+-[Sonam Divyanshi](https://www.linkedin.com/in/sonam-divyanshi-a7636b22a/)
 
--[Kundan Patil](https://www.linkedin.com/in/kundan-patil-638979199)
-
-
-## Home Page of our WebApplication
-![Home Page of our WebApplication](https://github.com/atharval1/precision-agriculture-using-machine-learning/blob/main/Project-docs/App-snaps/Home.png)
+-[Shreya Rani]
 
 
 ## How to use 💻
