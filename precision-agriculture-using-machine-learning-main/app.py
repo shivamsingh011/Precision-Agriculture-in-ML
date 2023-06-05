@@ -125,10 +125,11 @@ def predict_image(img, model=disease_model):
 
 
 app = Flask(__name__)
-db = SQLAlchemy(app)
-bcrypt = Bcrypt(app)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
 app.config["SECRET_KEY"] = 'thisissecretkey'
+db = SQLAlchemy(app)
+bcrypt = Bcrypt(app)
+
 
 
 
@@ -243,13 +244,11 @@ def signup():
     return render_template("signup.html", form=form)
 
 @ app.route('/crop-recommend')
-@login_required
 def crop_recommend():
     title = 'crop-recommend - Crop Recommendation'
     return render_template('crop.html', title=title)
 
 @ app.route('/fertilizer')
-@login_required
 def fertilizer_recommendation():
     title = '- Fertilizer Suggestion'
     return render_template('fertilizer.html', title=title)
@@ -261,7 +260,6 @@ def fertilizer_recommendation():
 #     return render_template('disease.html', title=title)
 
 @app.route('/disease-predict', methods=['GET', 'POST'])
-@login_required
 def disease_prediction():
     title = '- Disease Detection'
 
